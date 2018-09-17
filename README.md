@@ -4,21 +4,21 @@ Project Description:
 The project is about Online Forum. This Forum is for the problem solvers. Anyone who has a knack for programming can join this forum and share their knowledge and views about competitive programming and problem solving. They can post Tutorials or helpful thoughts and also comment on them. Hopefully by sharing their thoughts they will help build the community and make it stronger. We developed the project using Laravel Framework. Version "laravel/framework": "5.6.*", "php": "^7.1.3", “phpunit/phpunit": "^7.0"
 
  
-Fig1: Home page of the project.
+
 
 Visitors can able to see the index page of the forum. Navigation Menu contains Home, Post, Create Post, Problems and about section. By clicking on options from menu, it will be redirected to that page. 
 
  
-Fig2: Navigation to registration page of project.
+
 To be a Member of the forum user have to be registered. Registration requires name, email, password and password confirmation. All fields are required. Otherwise an alert will be shown. 
  
-Fig3: Navigation to Login page of project.
+
 For Login to the forum, users have to fulfill Email and Password field with valid information. For Invalid or Blank inputs an alert will be shown for entering valid inputs. 
  
-Fig4: Navigation to Create Post page.
+
 Guest Users can view previous posts but for creating a post user have to be logged in. other Users can also comment on that post. 
  
-Fig5: Navigation to Add Comment on Post.
+
 Laravel-Unit-tests
 Laravel is built with testing in mind. In fact, support for testing with PHPUnit is included out of the box and a phpunit.xml file is already set up for the application. The framework also ships with convenient helper methods that allow you to expressively test your applications.
 By default, application's  tests directory contains two directories:  Feature and  Unit.[1]
