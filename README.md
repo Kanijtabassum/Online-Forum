@@ -36,8 +36,7 @@ For our project we run the tests from root folder terminal and use Sublime Text 
 // Running the tests from root folder directory...
 “./vendor/bin/phpunit”
 
- 
-Fig6: Executing Laravel’s Default tests.
+
 We write all URL test for navigation in ExampleTest.php from Feature directory which exist in application’s tests directory. 
  
 Fig7: Executing URL test for navigation.
@@ -48,11 +47,6 @@ RegisterTest.php file for registration’s Unit Test
 
 After running all tests related to our project, expected outcomes: 
  
-Fig7: Executing all tests related to the project.
-
-
-
-
 
 References
 [1] https://laravel.com/docs/5.6/testing
